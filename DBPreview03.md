@@ -5,8 +5,8 @@ Input과 output 둘다 문제 있음.
 : 악의적인 정보, 시스템 내부를 곤란하게 하는 정보를 input 할 수 있고,
 출력되는 과정에서 어떤문제를 발생시켜 정상적이지 않은 내용 or 실제 서버에 저장된 DB Server에 저장되어있는 신뢰도 높은 data가 바뀌어서 출력 될 수도.
 
-보안관련문제는 보수적으로 다가가야함. 
-= > 사용자가 입력한 정보는 일단 위험한거라 생각하고 검증과정을 거쳐 통과되고 난 후 시스템에 저장.
+보안관련 문제는 보수적으로 다가가야한다. 사용자가 입력한 정보는 일단 위험한 것이라 생각하고 검증과정을 거쳐 통괴되고 그 다음 시스템에 저장.
+
 ---       
 ### SQL Injection
 : 임의의 SQL문을 주입하고 실행하게 하여 DB가 비정상적인 동작을 하는 행위.공격이 비교적 쉬운 편이라 성공할 경우 큰 피해 有
@@ -60,6 +60,7 @@ create랑 update는 제출 버튼이용 > 직접 클릭하는 액션이 들어�
 C:\Bitnami\wampstack-7.2.6-0\apache2\conf ( 본인 경로임)에 들어가서 httpd라는 파일을 수정하였다. 맨 밑으로 내리면 SetEnv PATH "C:\Bitnami\wampstack-7.2.6-0/apache2/bin;${PATH}" 있는데 그 문장 앞에 #을 하나 더 추가해주고 저장하면 된다. 그리고 관리자 권한으로 cmd에들어가서 아파치 bin 폴더가 있는 곳으로 이동하면 된다. 이후 httpd.exe -k install를 치면 해결 된다. 그리고 start하면 된다. 
 
 ## 참고 사이트
+
 https://blog.naver.com/PostView.nhn?blogId=cmo_9405&logNo=221288519374&redirect=Dlog&widgetTypeCall=true&directAccess=false
 ---
 ## 회고
@@ -74,5 +75,5 @@ https://blog.naver.com/PostView.nhn?blogId=cmo_9405&logNo=221288519374&redirect=
 ---
 ## 과제링크
 https://youtu.be/WWOe1B8-ZUA 
-(혹시 과제 제출하고 1주일 뒤에 삭제 해도 되나요? 깃허브에서만요!)
+(혹시 과제 제출하고 1주일 뒤에 삭제 해도 되나요? 깃허브 에서만요!)
 
