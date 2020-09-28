@@ -54,7 +54,7 @@ Warning mysqli_fetch_array() expects parameter 1 to be mysqli_result Boolean giv
 ---
 
 참고할 내용이 없습니다.. 참고 내용 말고 실행영상 주소 첨부합니다.
-https://youtu.be/Xg4gxdW53FU
+https://youtu.be/zonpBLbgaH0
 
 ## 4. 회고 (+, -, !)
 ---
