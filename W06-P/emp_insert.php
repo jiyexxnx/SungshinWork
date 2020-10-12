@@ -20,7 +20,6 @@
         <option value="F">F</option>
         <option value="M">M</option>
         </select><br>
-        <input type="text" name="gender" placeholder="gender"><br>
         <label>hire_date:(0000-00-00)</label>
         <input type="date" name="hire_date" placeholder="hire_date"><br>
         <input type="submit" value="Create">
