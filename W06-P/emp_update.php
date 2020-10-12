@@ -26,8 +26,11 @@
         <label> last_name: </label>
         <input type="text" name="last_name" value="'.$row['last_name'].'">
         <br>
-        <label> gender: </label>
-        <input type="text" name="gender" value="'.$row['gender'].'">
+        <label>gender:</label>
+        <select name = "gender">
+        <option value="F">F</option>
+        <option value="M">M</option>
+        </select>
         <br>
         <label> hire_date:(YYYY-MM-DD) </label>
         <input type="date" name="hire_date" value="'.$row['hire_date'].'">
