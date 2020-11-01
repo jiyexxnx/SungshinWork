@@ -52,7 +52,6 @@ ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: Y
 ## 3. 참고할 만한 내용
 ---
 https://kb.vmware.com/s/article/2030543 - freezing 해결하기
-```
 
 ## 4. 회고 (+, -, !)
 ---
