@@ -4,6 +4,8 @@
 ---
 https://youtu.be/fGkT4RK40Vg
 
+부서별성별
+
 ## 1. 새로 배운 내용
 ---
 * git pull origin master : 내 git repository에있는 내용 가져 오기 (데이터 다운로드)
